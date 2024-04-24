@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+header{
+    background-color: lightblue;
+    height: 30vh;
+}
+.container{
+    overflow: hidden;
+    position: relative;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    z-index: -2;
+}
+.bgelements{
+    z-index: -1;
+    overflow: hidden;
+}
+
+.circle{
+    background:linear-gradient(lightblue,lightgreen);
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.a{
+    top: 40px;
+    left: 30px;
+}
+
+.b{
+    top: 290px;
+    left: 530px;
+}
+
+.glassdiv{
+    width: 80vw;
+    height: 80vw;
+    background:linear-gradient(270deg,rgb(255,255,255,0.2),rgb(255,255,255,0.1));
+    border:solid 2px rgb(255,255,255,0.2);
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px rgba(3, 3, 3, 0.1);
+    backdrop-filter: blur(20px);
+}
+
+footer{
+    background-color: lightblue;
+    height: 30vh;
+}

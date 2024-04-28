@@ -72,21 +72,7 @@
     }
 }
     
-@keyframes disappear {
-    from{
 
-    }
-    to{
-
-    }
-}
-/* 
-    animation-name: appear;
-    animation-duration: 1ms;
-    animation-timing-function: linear;
-    animation-timeline: view(block 80% 0%); 
-    
-*/
 
 body{
 font-family: 'k2d';
@@ -257,10 +243,6 @@ header{
     rotate: 17deg;
     left: -15%;
     top: 16%;
-    animation-name: intheview;
-    animation-duration: 1ms;
-    animation-timing-function: linear;
-    animation-timeline: view(block 0% 0%); 
 }
 .earphone2{
     position: absolute;
@@ -268,10 +250,6 @@ header{
     rotate: 224deg;
     right: -15%;
     bottom: -15%;
-    animation-name: intheview;
-    animation-duration: 1ms;
-    animation-timing-function: linear;
-    animation-timeline: view(block 80% 0%); 
 }
 .page2{
     height: 35vw;

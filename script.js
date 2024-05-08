@@ -45,3 +45,5 @@ function goright()
     document.getElementById("property").innerHTML=property[current]
     document.getElementById("defination").innerHTML=defination[current]
 }
+
+
